@@ -1,0 +1,45 @@
+{
+    "reviews" : [
+        {
+
+            "name" : "John Doe",
+            "reviewId": 1,
+            "reviewer" : {
+                "profilePhotoUrl": "https://images.generated.photos/W1IQ8-e1pL_46rqpQMfIYjr-n2i6ryN2tm7OdB1BFk4/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LmNvbmQvZjFhZjQ1/MDktOGU3YS00NjIy/LTgzZjItOWZkNTc2/Y2FjMzk1LmpwZw.jpg"
+            },
+            "starRating" : 5,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu felis odio. Aenean a mi varius, vehicula urna sit amet.",
+            "createTime": "2019-01-05"
+        },
+        {
+            "name" : "Jane Doe",
+            "reviewId": 2,
+            "reviewer" : {
+                "profilePhotoUrl": "https://images.generated.photos/W1IQ8-e1pL_46rqpQMfIYjr-n2i6ryN2tm7OdB1BFk4/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LmNvbmQvZjFhZjQ1/MDktOGU3YS00NjIy/LTgzZjItOWZkNTc2/Y2FjMzk1LmpwZw.jpg"
+            },
+            "starRating" : 4.5,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu felis odio. Aenean a mi varius, vehicula urna sit amet.",
+            "createTime": "2019-07-25"
+        },
+        {
+            "name" : "John Doe",
+            "reviewId": 3,
+            "reviewer" : {
+                "profilePhotoUrl": "https://images.generated.photos/W1IQ8-e1pL_46rqpQMfIYjr-n2i6ryN2tm7OdB1BFk4/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LmNvbmQvZjFhZjQ1/MDktOGU3YS00NjIy/LTgzZjItOWZkNTc2/Y2FjMzk1LmpwZw.jpg"
+            },
+            "starRating" : 5,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu felis odio. Aenean a mi varius, vehicula urna sit amet.",
+            "createTime": "2019-12-23"
+        },
+        {
+            "name" : "Jane Doe",
+            "reviewId": 4,
+            "reviewer" : {
+                "profilePhotoUrl": "https://images.generated.photos/W1IQ8-e1pL_46rqpQMfIYjr-n2i6ryN2tm7OdB1BFk4/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LmNvbmQvZjFhZjQ1/MDktOGU3YS00NjIy/LTgzZjItOWZkNTc2/Y2FjMzk1LmpwZw.jpg"
+            },
+            "starRating" : 3,
+            "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu felis odio. Aenean a mi varius, vehicula urna sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu felis odio. Aenean a mi varius, vehicula urna sit amet.",
+            "createTime": "2012-10-07"
+        }        
+    ]
+}
