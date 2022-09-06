@@ -1,3 +1,6 @@
+# What is this?
+A simple React Application that queries from Hygraph to get mock Google reviews data and then display that data in a carousel
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
