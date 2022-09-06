@@ -7,7 +7,7 @@ import Slider from "react-slick";
 import styled from 'styled-components/macro'
 import { useEffect, useState } from 'react';
 import { request } from 'graphql-request';
-import GoogleReviews from "C:\\REACT\\googlereviews\\src\\hygraph\\queries\\GoogleReviews.js";
+import GoogleReviews from "../../hygraph/queries/GoogleReviews.js";
 
 
 const Reviews = () => {
