@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import styled from 'styled-components/macro'
 import { useEffect, useState } from 'react';
 import { request } from 'graphql-request';
+import GoogleReviews from "C:\\REACT\\googlereviews\\src\\hygraph\\queries\\GoogleReviews.js";
 
 
 const Reviews = () => {
@@ -45,42 +46,22 @@ const Reviews = () => {
 
     const [reviews, setReviews] = useState(null);
 
-    useEffect(() => () => {
-        const fetchReviews = async () => {
-            const data = await request(
-                'https://api-ca-central-1.hygraph.com/v2/cl7i3j2l41k6x01td5gyr36ho/master',
-                `
-                query MyQuery {
-                    googleReviews {
-                        id
-                        name
-                        starRating
-                        comment
-                        createTime
-                        profilePhotoUrl {
-                            url
-                        }
-                    }
-                }
-                `
-            );
-
-            setReviews(data);
-            // console.log(data);
-        };
-        fetchReviews();
-    },
-        []
-    )
+    useEffect(() => {
+        (async () => {
+            await new GoogleReviews().fetchReviews().then((data) => {
+                setReviews(data);
+            });
+        })();
+    },[]); 
 
     return (
-        reviews ? 
-        <Slider {...sliderSettings}>
-            {reviews.googleReviews.map((review) =>
-                <Review key={review.reviewId} review={review} />)}
-        </Slider>
-        :
-        <div>Loading...</div>
+        reviews ?
+            <Slider {...sliderSettings}>
+                {reviews.googleReviews.map((review) =>
+                    <Review key={review.reviewId} review={review} />)}
+            </Slider>
+            :
+            <div>Loading...</div>
     )
 }
 

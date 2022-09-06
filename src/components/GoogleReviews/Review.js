@@ -51,10 +51,10 @@ const Review = ({ review }) => {
       }
     }
   `;
-  console.log(review)
+  // console.log(review)
 
   return (
-    <Div>
+    <Div id={review.id}>
       <img src={googleLogo} alt="Google Logo" />
       <ReactStars
         count={5}
